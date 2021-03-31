@@ -25,7 +25,7 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.cpl.maintainProject</string>
+				<string>com.BaiXiangGuoOne.JiaKaoTong</string>
 				<key>bundle-version</key>
 				<string>1.1.5</string>
 				<key>kind</key>
