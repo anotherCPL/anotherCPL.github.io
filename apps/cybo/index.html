@@ -21,13 +21,13 @@
     </div>
     <div class="appdownload-btns">
        <a class="btn item-android" onclick="toDownload_iOS();" style="text-align: center">
-            <span class="txt" style="float: none"> <i class="iconfont">&#xe60e;</i> 苹果版</span>
+            <span class="txt" style="float: none"> <i class="iconfont">&#xe60e;</i> apple app</span>
         </a>
       <!--     <a class="btn item-android" onclick="toDownload_android();" style="text-align: center">
             <span class="txt" style="float: none"> <i class="iconfont">&#xe60f;</i> 安卓版</span>
         </a> -->
     </div>
-    <p style="text-align: center;color: white; width: 60%;margin: 0 auto">点击下载应用</p>
+    <p style="text-align: center;color: white; width: 60%;margin: 0 auto">Click Download Application</p>
 </div>
 </body>
 
@@ -37,14 +37,14 @@
  
    var userAgent = navigator.userAgent; //取得浏览器的userAgent字符串
       
- if(confirm("是否下载安装苹果端app？")){  
+ if(confirm("Is it allowed to download and install the APP?")){  
            if (userAgent.indexOf("Safari") > -1) {
 
 window.location.href = 'itms-services://?action=download-manifest&url=https://gitee.com/anothercpl/appdownloads/raw/master/apps/CYBO/install.plist'; 
 
         } else{
      
-             alert("请使用内置Safari浏览器打开页面，弹框允许安装后即可退出页面。");
+             alert("Please use the built-in Safari browser to open the page, pop-up box allows you to exit the page after installation.");
         }
         
          }else{  
